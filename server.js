@@ -9,7 +9,7 @@ const pool = mariadb.createPool({
   password: 'root',
   database: 'sample',
   port: 3306,
-  connectionLimit: 10
+  connectionLimit: 100
 });
 
 const swaggerJsdoc = require('swagger-jsdoc');
